@@ -2,14 +2,16 @@
 
 My effort on replicating various apps UI on flutter.
 
+
+[View on Web](https://lohanidamodar.github.io/flutter_ui_challenges/#/)
+
 [<img src="screenshots/play-store-logo.png" width="450" >](https://play.google.com/store/apps/details?id=com.popupbits.flutteruichallenges) [<img src="screenshots/app-store-logo.png" width="400" >](https://apps.apple.com/np/app/flutter-ui-challenges/id1473537882)
 
-## Building and running the code
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/flutter-ui-challenges)
 
-- From now on, you need to create your own firebase project and add the config files in order to build the project
+## Building and running the code [ **Updated** ]
 
-    In order to build the project before firebase services were added please checkout the branch [without-firebase](https://github.com/lohanidamodar/flutter_ui_challenges/tree/without-firebase)
-
+- Thank you all for your tremendous support. With latest update, I have removed all firebase dependency, and project now runs on web and desktop as well. Please use flutter master channel to run and build. If you want previous version with firebase please checkout [with-firebase](https://github.com/lohanidamodar/flutter_ui_challenges/tree/with-firebase) branch.
 
 ### Table of contents
 
@@ -17,11 +19,13 @@ My effort on replicating various apps UI on flutter.
 - **[My flutter plugins](#my-flutter-plugins)**
 - **[Complete App Examples](#complete-app-examples)**
 - **[Code Examples](#code-examples)**
+- **[Contributors](#contributors)**
 - **[Animation Examples UI](#animations)**
 - **[Ecommerce UIs](#ecommerce)**
 - **[Login/signup UIs](#user-flow-screens)**
 - **[Settings UIs](#settings-uis)**
 - **[Dashboard UIs](#dashboard-uis)**
+- **[Quotes App UIs](#quotes-app-uis)**
 - **[Motorbike App UIs](#motorbike-app-uis)**
 - **[Profile UIs](#profile-screens)**
 - **[Invitation App UIs](#inviation-app-ui)**
@@ -36,6 +40,8 @@ My effort on replicating various apps UI on flutter.
 - **[Hotel App UIs](#hotel-app)**
 - **[Travel App UIs](#travel-app)**
 - **[Grocery App UI Kit](#grocery-app-ui-kit)**
+- **[Bank App Clone](#bank-app-clone)**
+- **[Furniture App UI](#furniture-app-ui)**
 
 ## Speed codes [Youtube](https://youtube.com/c/reactbits)
 
@@ -120,8 +126,10 @@ These are some of my flutter plugins, that might help you in your flutter develo
 ## Contributors
 
 1. [Damodar Lohani](https://github.com/lohanidamodar)
-2. [Siddhartha Joshi](https://github.com/cimplesid)
-3. [Sudip Thapa](https://github.com/sudeepthapa)
+2. [Sudip Thapa](https://github.com/sudeepthapa)
+3. [Shyam Adhikari (UI/UX Designer)](http://uilearner.com)
+4.  [Mausam Rayamajhi](https://github.com/mausamRayamajhi)
+5. [Siddhartha Joshi](https://github.com/cimplesid)
 
 ## Packages Used
 
@@ -138,11 +146,11 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 
 ## Ecommerce
 
-<img height="480px" src="screenshots/checkout1.png"> <img height="480px" src="screenshots/ecommerce_details3.png"> <img height="480px" src="screenshots/home_page1.png"> <img height="480px" src="screenshots/confirm_order1.png"> <img height="480px" src="screenshots/cart1.png"> <img height="480px" src="screenshots/ecommerce1.png"> <img height="480px" src="screenshots/ecommerce2.png"> <img height="480px" src="screenshots/ecommerce_detail1.png"> <img height="480px" src="screenshots/ecommerce_detail2.png">
+<img height="480px" src="screenshots/cart2.png"> <img height="480px" src="screenshots/ecommerce4.png"> <img height="480px" src="screenshots/checkout1.png"> <img height="480px" src="screenshots/ecommerce_details3.png"> <img height="480px" src="screenshots/home_page1.png"> <img height="480px" src="screenshots/confirm_order1.png"> <img height="480px" src="screenshots/cart1.png"> <img height="480px" src="screenshots/ecommerce1.png"> <img height="480px" src="screenshots/ecommerce2.png"> <img height="480px" src="screenshots/ecommerce_detail1.png"> <img height="480px" src="screenshots/ecommerce_detail2.png">
 
 ## User Flow Screens
 
-<img height="480px" src="screenshots/auth3-1.png"> <img height="480px" src="screenshots/auth3-2.png"> <img height="480px" src="screenshots/login7.png"> <img height="480px" src="screenshots/signup2.png"> <img height="480px" src="screenshots/login6.png"> <img height="480px" src="screenshots/auth2.png"> <img height="480px" src="screenshots/login5.png"> <img height="480px" src="screenshots/auth1.png"> <img height="480px" src="screenshots/login4.png"> <img height="480px" src="screenshots/login1.png"> <img height="480px" src="screenshots/login2.png"> <img height="480px" src="screenshots/login3.gif"> <img height="480px" src="screenshots/signup1.png">
+<img height="480px" src="screenshots/login9.png"> <img height="480px" src="screenshots/login8.png"> <img height="480px" src="screenshots/auth3-1.png"> <img height="480px" src="screenshots/auth3-2.png"> <img height="480px" src="screenshots/login7.png"> <img height="480px" src="screenshots/signup2.png"> <img height="480px" src="screenshots/login6.png"> <img height="480px" src="screenshots/auth2.png"> <img height="480px" src="screenshots/login5.png"> <img height="480px" src="screenshots/auth1.png"> <img height="480px" src="screenshots/login4.png"> <img height="480px" src="screenshots/login1.png"> <img height="480px" src="screenshots/login2.png"> <img height="480px" src="screenshots/login3.gif"> <img height="480px" src="screenshots/signup1.png">
 
 ## Settings UIs
 <img height="480px" src="screenshots/settings1.png"> <img height="480px" src="screenshots/settings2.png"> <img height="480px" src="screenshots/settings3.png">
@@ -150,12 +158,15 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 ## Dashboard UIs
 <img height="480px" src="screenshots/dash1.png"> <img height="480px" src="screenshots/dash2.png">  <img height="480px" src="screenshots/dash3.png">
 
+## Quotes App UIs
+<img height="480px" src="screenshots/quotes1.png"> 
+
 ## Motorbike App UIs
 <img height="480px" src="screenshots/bike1.png"> <img height="480px" src="screenshots/bike2.png">
 
 ## Profile Screens
 
-<img height="480px" src="screenshots/profile7.png"> <img height="480px" src="screenshots/profile4.png"> <img height="480px" src="screenshots/profile3.png"> <img height="480px" src="screenshots/p6.png"> <img height="480px" src="screenshots/profile5.png"> <img height="480px" src="screenshots/profile1.png"> <img height="480px" src="screenshots/profile2.png">
+<img height="480px" src="screenshots/profile9.png"> <img height="480px" src="screenshots/profile8.png"> <img height="480px" src="screenshots/profile7.png"> <img height="480px" src="screenshots/profile4.png"> <img height="480px" src="screenshots/profile3.png"> <img height="480px" src="screenshots/p6.png"> <img height="480px" src="screenshots/profile5.png"> <img height="480px" src="screenshots/profile1.png"> <img height="480px" src="screenshots/profile2.png">
 
 ## Inviation App UI
 
@@ -167,7 +178,7 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 
 ## Navigations
 
-<img height="480px" src="screenshots/bottom.png"> <img height="480px" src="screenshots/drawer2.png"> <img height="480px" src="screenshots/dark_drawer_nav.png"> <img height="480px" src="screenshots/hidden_menu1.gif">
+<img height="480px" src="screenshots/menu1.png"> <img height="480px" src="screenshots/bottom.png"> <img height="480px" src="screenshots/drawer2.png"> <img height="480px" src="screenshots/dark_drawer_nav.png"> <img height="480px" src="screenshots/hidden_menu1.gif">
 
 ## Onboarding Screens
 
@@ -176,16 +187,15 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 <img height="480px" src="screenshots/intro6.gif"> <img height="480px" src="screenshots/intro4.gif"> <img height="480px" src="screenshots/onboard3.gif"> <img height="480px" src="screenshots/onboard2.gif"> <img height="480px" src="screenshots/onboarding1.gif"><img height="480px" src="screenshots/i5.gif">
 
 ## miscellaneous widgets
-<img height="480px" src="screenshots/gallery1.png"> <img height="480px" src="screenshots/musicplayer2.png"> <img height="480px" src="screenshots/image-popup.png"> <img height="480px" src="screenshots/dash3.png"> <img height="480px" src="screenshots/dash2.png"> <img height="480px" src="screenshots/chat2.png"> <img height="480px" src="screenshots/dash1.png"> <img height="480px" src="screenshots/chatui.png"> <img height="480px" src="screenshots/landing1.png"> <img height="480px" src="screenshots/form.png"> <img height="480px" src="screenshots/sliders.gif"> <img height="480px" src="screenshots/dialog2.png"> <img height="480px" src="screenshots/dialog1.png"> <img height="480px" src="screenshots/hidden_menu1.gif"> <img height="480px" src="screenshots/springy_slider.gif"> <img height="480px" src="screenshots/sliverappbar1.gif"> <img height="480px" src="screenshots/hero-animation.gif">
-<img height="480px" src="screenshots/btm2.png"><img height="480px" src="screenshots/music.png">
+<img height="480px" src="screenshots/gallery1.png"> <img height="480px" src="screenshots/musicplayer2.png"> <img height="480px" src="screenshots/image-popup.png"> <img height="480px" src="screenshots/dash3.png"> <img height="480px" src="screenshots/dash2.png"> <img height="480px" src="screenshots/chat2.png"> <img height="480px" src="screenshots/dash1.png"> <img height="480px" src="screenshots/chatui.png"> <img height="480px" src="screenshots/landing1.png"> <img height="480px" src="screenshots/form.png"> <img height="480px" src="screenshots/sliders.gif"> <img height="480px" src="screenshots/dialog2.png"> <img height="480px" src="screenshots/dialog1.png"> <img height="480px" src="screenshots/hidden_menu1.gif"> <img height="480px" src="screenshots/springy_slider.gif"> <img height="480px" src="screenshots/sliverappbar1.gif"> <img height="480px" src="screenshots/hero-animation.gif"> <img height="480px" src="screenshots/btm2.png"><img height="480px" src="screenshots/music.png"> <img src="screenshots/crop1.png" height="480px" >
 
 ## Blog
 
-<img height="480px" src="screenshots/sports_news1.png" > <img height="480px" src="screenshots/blog-home1.png" > <img height="480px" src="screenshots/article2.png" > <img height="480px" src="screenshots/article1.png" >
+<img height="480px" src="screenshots/news1.png" > <img height="480px" src="screenshots/sports_news1.png" > <img height="480px" src="screenshots/blog-home1.png" > <img height="480px" src="screenshots/article2.png" > <img height="480px" src="screenshots/article1.png" >
 
 ## Food App
 
-<img height="480px" src="screenshots/recipe-single.png"> <img height="480px" src="screenshots/recipe-list.png"> <img height="480px" src="screenshots/recipe_details1.png"> <img height="480px" src="screenshots/avocado.png"> <img height="480px" src="screenshots/cake.png"> <img height="480px" src="screenshots/fdhome.png">
+<img height="480px" src="screenshots/food_checkout_1.png"> <img height="480px" src="screenshots/recipe-single.png"> <img height="480px" src="screenshots/recipe-list.png"> <img height="480px" src="screenshots/recipe_details1.png"> <img height="480px" src="screenshots/avocado.png"> <img height="480px" src="screenshots/cake.png"> <img height="480px" src="screenshots/fdhome.png">
 
 ## Quiz App
 
@@ -215,3 +225,11 @@ The code for Springy Widget is taken and refactored from (https://github.com/mat
 - Custom widgets for list items, category items etc.
 
 <img height="480px" src="screenshots/grocery_home.png"> <img height="480px" src="screenshots/grocery_details.png"> <img height="480px" src="screenshots/grocery_cart.png"> <img height="480px" src="screenshots/grocery_wishlist.png"> <img height="480px" src="screenshots/grocery_options.png">
+
+## Bank App Clone
+Bank app clone by [Mausam Rayamajhi](https://github.com/mausamRayamajhi)
+<img height="480px" src="screenshots/nic1.png"> <img height="480px" src="screenshots/nic2.png"> <img height="480px" src="screenshots/nic3.png">
+
+## Furniture App UI 
+Furniture App by  [Mausam Rayamajhi](https://github.com/mausamRayamajhi)
+<img height="480px" src="screenshots/f1.png"> <img height="480px" src="screenshots/f2.gif"> 
