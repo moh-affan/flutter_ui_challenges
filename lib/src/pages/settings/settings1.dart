@@ -1,4 +1,3 @@
-import 'package:cached_network_image/cached_network_image.dart';
 /**
  * Author: Damodar Lohani
  * profile: https://github.com/lohanidamodar
@@ -16,7 +15,7 @@ class SettingsOnePage extends StatefulWidget {
 }
 
 class _SettingsOnePageState extends State<SettingsOnePage> {
-  bool _dark;
+  late bool _dark;
 
   @override
   void initState() {
@@ -31,7 +30,6 @@ class _SettingsOnePageState extends State<SettingsOnePage> {
   @override
   Widget build(BuildContext context) {
     return Theme(
-      isMaterialAppTheme: true,
       data: ThemeData(
         brightness: _getBrightness(),
       ),

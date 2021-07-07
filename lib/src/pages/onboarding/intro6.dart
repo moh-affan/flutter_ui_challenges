@@ -2,9 +2,9 @@
  * Author: Damodar Lohani
  * profile: https://github.com/lohanidamodar
   */
-  
+
 import 'package:flutter/material.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
+import 'package:flutter_swiper_null_safety/flutter_swiper_null_safety.dart';
 import 'package:flutter_ui_challenges/core/presentation/res/assets.dart';
 import 'package:flutter_ui_challenges/src/widgets/network_image.dart';
 
@@ -77,8 +77,10 @@ class _IntroSixPageState extends State<IntroSixPage> {
               icon:
                   Icon(_currentIndex == 2 ? Icons.check : Icons.arrow_forward),
               onPressed: () {
-                if (_currentIndex != 2) _controller.next();
-                else Navigator.pop(context);
+                if (_currentIndex != 2)
+                  _controller.next();
+                else
+                  Navigator.pop(context);
               },
             ),
           )
@@ -90,12 +92,12 @@ class _IntroSixPageState extends State<IntroSixPage> {
 
 class IntroItem extends StatelessWidget {
   final String title;
-  final String subtitle;
-  final Color bg;
-  final String imageUrl;
+  final String? subtitle;
+  final Color? bg;
+  final String? imageUrl;
 
   const IntroItem(
-      {Key key, @required this.title, this.subtitle, this.bg, this.imageUrl})
+      {Key? key, required this.title, this.subtitle, this.bg, this.imageUrl})
       : super(key: key);
 
   @override
@@ -118,7 +120,7 @@ class IntroItem extends StatelessWidget {
               if (subtitle != null) ...[
                 const SizedBox(height: 20.0),
                 Text(
-                  subtitle,
+                  subtitle!,
                   style: TextStyle(color: Colors.white, fontSize: 24.0),
                   textAlign: TextAlign.center,
                 ),
@@ -129,13 +131,15 @@ class IntroItem extends StatelessWidget {
                   margin: const EdgeInsets.only(bottom: 70),
                   width: double.infinity,
                   child: ClipRRect(
-                      borderRadius: BorderRadius.circular(20.0),
-                      child: Material(
-                        elevation: 4.0,
-                          child: PNetworkImage(
+                    borderRadius: BorderRadius.circular(20.0),
+                    child: Material(
+                      elevation: 4.0,
+                      child: PNetworkImage(
                         imageUrl,
                         fit: BoxFit.cover,
-                      ),),),
+                      ),
+                    ),
+                  ),
                 ),
               )
             ],
